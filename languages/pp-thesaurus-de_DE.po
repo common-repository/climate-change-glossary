@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PoolParty Thesaurus 2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-22 13:05+0200\n"
+"PO-Revision-Date: Thu Oct 22 2015 14:41:36 GMT+0200\n"
+"Last-Translator: admin <k.moser@semantic-web.at>\n"
+"Language-Team: Kurt Moser <k.moser@semantic-web.at>\n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: classes/PPThesaurus.class.php:435
+msgid "Please click on \"Import/Update Thesaurus\""
+msgstr "Bitte klicken Sie auf \"Import/Update Thesaurus\""
+
+#: classes/PPThesaurus.class.php:452
+msgid "Thesaurus endpoint"
+msgstr "Thesaurus Endpoint"
+
+#: classes/PPThesaurus.class.php:469
+msgid ""
+"Uploading the thesaurus can take a few minutes (4-5 minutes).<br />Please "
+"remain patient and don't interrupt the procedure."
+msgstr ""
+"Das Hochladen des Thesauruses kann einige Minuten (4-5 Minuten) dauern. <br "
+"/>Bitte bleiben Sie geduldig und unterbrechen Sie die Prozedur nicht."
+
+#: classes/PPThesaurus.class.php:498
+msgid "Options for automated linking of recognized terms"
+msgstr "Optionen für die automatische Verknüpfung von gefundenen Begriffen"
+
+#: classes/PPThesaurus.class.php:505
+msgid "automated linking disabled"
+msgstr "automatisierte Verknüpfung deaktiviert"
+
+#: classes/PPThesaurus.class.php:509
+msgid "Terms excluded from automated linking"
+msgstr ""
+"Begriffe, die von der automatisierten Verknüpfung ausgeschlossen werden "
+"sollen"
+
+#: classes/PPThesaurus.class.php:512
+msgid "comma separated values"
+msgstr "Begriffe durch Komma getrennt"
+
+#: classes/PPThesaurus.class.php:610
+msgid "Please indicate the SPARQL endpoint."
+msgstr "Bitte geben Sie den SPARQL-Endpunkt an."
+
+#: classes/PPThesaurus.class.php:613
+msgid "Please indicate the SKOS file to be imported."
+msgstr "Bitte geben Sie eine SKOS-Datei zum Importiert an."
+
+#: classes/PPThesaurus.class.php:641
+msgid "Invalid characters in the comma separated list."
+msgstr "Ungültige Zeichen in der durch Komma getrennte Liste."
+
+#: classes/PPThesaurus.class.php:657
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: classes/PPThesaurusARC2Store.class.php:118
+#: classes/PPThesaurusARC2Store.class.php:124
+msgid "An error has occurred while downloading the file."
+msgstr "Es ist ein Fehler beim Herunterladen der Datei aufgetreten."
+
+#: classes/PPThesaurusARC2Store.class.php:136
+msgid "An error has occurred while storing the RDF data to the database."
+msgstr "Es ist ein Fehler beim Speichern der RDF-Daten in die Datenbank aufgetreten."
+
+#: classes/PPThesaurusARC2Store.class.php:217
+msgid ""
+"An error has occurred while storing the data from the SPARQL endpoint to the "
+"database."
+msgstr ""
+"Es ist ein Fehler während des Speicherns der Daten vom SPARQL-Endpunkt in "
+"die Datenbank aufgetreten."
+
+#: uninstall.php:4
+msgid "You are not allowed to call this page directly."
+msgstr "Sie haben keine Berechtigung diese Seite direkt aufzurufen."
+
+#: classes/PPThesaurus.class.php:268 classes/PPThesaurus.class.php:383
+#: classes/PPThesaurus.class.php:395 classes/PPThesaurus.class.php:415
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/PPThesaurus.class.php:284 classes/PPThesaurus.class.php:295
+msgid "The glossary pages cannot be created."
+msgstr "Die Glossar-Seiten können nicht erstellt werden."
+
+#: classes/PPThesaurus.class.php:310
+msgid "The ARC2 library cannot be installed automatically."
+msgstr "Die ARC2 Bibliothek kann nicht automatisch installiert werden."
+
+#: classes/PPThesaurus.class.php:311
+#, php-format
+msgid ""
+"Please install ARC2 manually (see the <a href=\"%s\" "
+"target=\"_blank\">installation guide</a> point 3 and 4)."
+msgstr ""
+"Bitte installieren Sie ARC2 manuell (siehe <a href=\"%s\" "
+"target=\"_blank\">Installationsanleitung</a> Punkt 3 und 4)."
+
+#: classes/PPThesaurus.class.php:313
+msgid "The plugin directory is not writable."
+msgstr "Das Plugin-Verzeichnis ist nicht beschreibbar."
+
+#: classes/PPThesaurus.class.php:327
+msgid ""
+"The library cannot be downloaded from <a href=\"https://github."
+"com/semsol/arc2\" target=\"_blank\">https://github.com/semsol/arc2</a>."
+msgstr ""
+"Die Bibliothek kann nicht von <a href=\"https://github.com/semsol/arc2\" "
+"target=\"_blank\">https://github.com/semsol/arc2</a> heruntergeladen werden."
+
+#: classes/PPThesaurus.class.php:337
+msgid "The library cannot be unzipped."
+msgstr "Die Bibliothek kann nicht entpackt werden."
+
+#: classes/PPThesaurus.class.php:351
+msgid ""
+"The entire content of the library cannot be moved into the \"arc\" sub "
+"directory."
+msgstr ""
+"Der gesamte Inhalt der Bibliothek kann nicht in das Unterverzeichnis \"arc\" "
+"verschoben werden."
+
+#: classes/PPThesaurus.class.php:396
+msgid "Please install and enable the mbstring extension for PHP!"
+msgstr "Bitte installieren und aktivieren Sie die mbstring Erweiterung für PHP!"
+
+#: classes/PPThesaurus.class.php:397
+msgid ""
+"For more information please visit <a href=\"http://php.net/manual/en/mbstring."
+"installation.php\" target=\"_blank\">mbstring installation</a> on php.net"
+msgstr ""
+"Für weitere Informationen besuchen Sie bitte die Seite <a href=\"http://php."
+"net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring "
+"Installation</a> auf php.net"
+
+#: classes/PPThesaurus.class.php:433
+#, php-format
+msgid "Last data update on %1$s"
+msgstr "Letzte Aktualisierung der Daten am %1$s"
+
+#: classes/PPThesaurus.class.php:384
+msgid "Please install ARC2 first before you can change the settings!"
+msgstr ""
+"Bitte installieren Sie ARC2 zuerst, bevor Sie die Einstellungen ändern "
+"können!"
+
+#: classes/PPThesaurus.class.php:385
+msgid ""
+"Download ARC2 from https://github.com/semsol/arc2 and unzip it. Open the "
+"unziped folder and upload the entire contents into the '/wp-"
+"content/plugins/poolparty-thesaurus/arc/' directory."
+msgstr ""
+"Laden Sie sich ARC2 von https://github.com/semsol/arc2 herunter und "
+"entpacken Sie es. Öffnen Sie den ausgepackten Ordner und speichern Sie den "
+"Inhalt in das Verzeichnis '/wp-content/plugins/poolparty-thesaurus/arc/'."
+
+#: classes/PPThesaurus.class.php:416
+msgid "Data settings"
+msgstr "Daten Einstellungen"
+
+#: classes/PPThesaurus.class.php:427
+#, php-format
+msgid "Last data update on %1$s from %2$s"
+msgstr "Letzt Aktualisierung am %1$s über %2$s"
+
+#: classes/PPThesaurus.class.php:429
+msgid "Please import a SKOS Thesaurus"
+msgstr "Bitte importieren Sie einen SKOS Thesaurus"
+
+#: classes/PPThesaurus.class.php:445
+msgid "Import/Update SKOS Thesaurus from"
+msgstr "Import/Update SKOS Thesaurus vom"
+
+#: classes/PPThesaurus.class.php:462
+msgid "RDF/XML file"
+msgstr "RDF/XML Datei"
+
+#: classes/PPThesaurus.class.php:473
+msgid "Import/Update Thesaurus"
+msgstr "Import/Update Thesaurus"
+
+#: classes/PPThesaurus.class.php:481
+msgid "Common settings"
+msgstr "Allgemeine Einstellungen"
+
+#: classes/PPThesaurus.class.php:501
+msgid "link and show description in tooltip"
+msgstr "verknüpfe und zeige die Beschreibung im Tooltip an"
+
+#: classes/PPThesaurus.class.php:503
+msgid "link without tooltip"
+msgstr "verknüpfe (ohne Anzeige im Tooltip)"
+
+#: classes/PPThesaurus.class.php:516
+msgid "Thesaurus languages"
+msgstr "Thesaurus Sprachen"
+
+#: classes/PPThesaurus.class.php:523
+msgid "DBPedia SPARQL endpoint"
+msgstr "DBPedia SPARQL-Endpoint"
+
+#: classes/PPThesaurus.class.php:533
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: classes/PPThesaurus.class.php:588
+msgid "not available"
+msgstr "nicht vorhanden"
+
+#: classes/PPThesaurus.class.php:607
+msgid "Please indicate the SPARQL endpoint or the SKOS file to be imported."
+msgstr "Bitte geben Sie den SPARQL-Endpunkt oder eine SKOS-Datei zum Importiert an."
+
+#: classes/PPThesaurusARC2Store.class.php:121
+msgid "The specified file is not an RDF file."
+msgstr "Die angegebene Datei ist keine RDF-Datei"
+
+#: classes/PPThesaurusARC2Store.class.php:148
+msgid "No SPARQL endpoint has been indicated."
+msgstr "Es wurde kein SPARQL-Endpoint angegeben."
+
+#: classes/PPThesaurusARC2Store.class.php:183
+msgid "The transfer of data from the SPARQL endpoint is not possible."
+msgstr "Die Übertragung der Daten vom SPARQL-Endpunkt ist nicht möglich."
+
+#: classes/PPThesaurusManager.class.php:70
+#: classes/PPThesaurusManager.class.php:291
+#: classes/PPThesaurusManager.class.php:443
+#: classes/PPThesaurusManager.class.php:539
+#: classes/PPThesaurusManager.class.php:628
+#: classes/PPThesaurusManager.class.php:737
+#, php-format
+msgid "Could not execute query: %s"
+msgstr "Konnte die Abfrage nicht ausführen: %s"
+
+#: classes/PPThesaurusManager.class.php:918
+#, php-format
+msgid "Definition not available in %s"
+msgstr "Definition ist in '%s' nicht vorhanden"
+
+#: classes/PPThesaurusManager.class.php:919
+#, php-format
+msgid "Definition in %s"
+msgstr "Definition in '%s'"
+
+#: classes/PPThesaurusTemplate.class.php:41
+#: classes/PPThesaurusTemplate.class.php:120
+msgid "An error has occurred while reading concept data."
+msgstr "Beim Lesen des Konzepts ist ein Fehler aufgetreten."
+
+#: classes/PPThesaurusTemplate.class.php:125
+msgid "Search for documents related with"
+msgstr "Suche nach Dokumenten im Zusammenhang mit"
+
+#: classes/PPThesaurusTemplate.class.php:128
+msgid "Synonyms"
+msgstr "Synonyme"
+
+#: classes/PPThesaurusTemplate.class.php:137
+msgid "Related terms"
+msgstr "Verwandte Konzepte"
+
+#: classes/PPThesaurusTemplate.class.php:141
+msgid "Broader terms"
+msgstr "Übergeordnete Konzepte"
+
+#: classes/PPThesaurusTemplate.class.php:145
+msgid "Narrower terms"
+msgstr "Untergeordnete Konzepte"
+
+#: classes/PPThesaurusTemplate.class.php:151
+#, php-format
+msgid "Linked data frontend for %s"
+msgstr "Linked Data Frontend für %s"
+
+#: classes/PPThesaurusTemplate.class.php:217
+#, php-format
+msgid "Definition of %s"
+msgstr "Definition von %s"
+
+#: classes/PPThesaurusWidget.class.php:52
+msgid "Title"
+msgstr "Titel"
+
+#: classes/PPThesaurusWidget.class.php:57
+msgid "Info text"
+msgstr "Info-Text"
+
+#: classes/PPThesaurusWidget.class.php:62
+msgid "Width of the search field"
+msgstr "Länge des Suchfeldes"
+
+#: classes/PPThesaurusWidget.class.php:64
+msgid "or"
+msgstr "oder"

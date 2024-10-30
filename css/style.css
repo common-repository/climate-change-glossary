@@ -1,0 +1,75 @@
+
+.PPThesaurusDefInfo {
+display:block;
+font-style:italic;
+font-weight:bold;
+padding-bottom:10px;
+}
+
+a.PPThesaurus {
+background: url("thesaurus.png") no-repeat scroll right 2px transparent;
+color: #019F7B;
+padding-right: 13px;
+}
+
+p.relation {
+padding-top: 5px;
+}
+
+
+/* style for the abc index */
+
+.PPThesaurusAbcIndex, .PPThesaurusList{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.PPThesaurusAbcIndex {
+float:left;
+padding-bottom: 20px;
+}
+
+.PPThesaurusAbcIndex li {
+color: #ccc;
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+margin: 0 6px 0 0;
+text-transform: uppercase;
+float:left;
+}
+
+.PPThesaurusAbcIndex li a {
+color: #4CB449;
+text-decoration: none;
+}
+
+.PPThesaurusAbcIndex li a:hover {
+color: #252525;
+}
+
+.PPThesaurusAbcIndex li.selected a {
+color: #252525;
+}
+
+
+/* style for the itemlist */
+
+.PPThesaurusList {
+clear: both;
+float: none;
+}
+
+.PPThesaurusList li {
+margin-bottom:5px;
+}
+
+.PPThesaurusList a:link {
+text-decoration: none;
+}
+
+.PPThesaurusList a:hover {
+text-decoration: underline;
+}
+
